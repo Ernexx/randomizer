@@ -1,6 +1,10 @@
 # randomizer
 returns random number or number
+#
+randomNumber(min,max)
+###### returns random number
 
-randomNumber(min,max) returns random number
 
-randomBool() returns true or false
+#
+randomBool()
+###### returns true or false
