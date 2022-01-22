@@ -3,7 +3,7 @@ function randomNumber(min, max){ //returns random number
 }
 
 function randomBool(){ //retunrs true or false
-    let randomValue = Math.round(Math.random());
+    let randomValue = randomNumber(0, 1);
     if (randomValue == 1) return(true);
-    if (randomValue == 0) return(false);
+    return(false);
 }
